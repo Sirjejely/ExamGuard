@@ -1,1 +1,1 @@
-web: gunicorn ExamGuard.wsgi
+web: gunicorn examguardcore.wsgi:application
